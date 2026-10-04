@@ -1,0 +1,93 @@
+{
+  "_nota": "Datos 100% ficticios para el prototipo. Un solo cliente (CTA-58210, placa JKM482) con 5 tanqueos. Montos en pesos colombianos (COP). monto_capturado_cop = galones x precio_galon_cop. placa_foto_anpr es la placa que realmente aparece en la foto de la cámara (data/plates/<tx_id>.png). confianza_ocr es la confianza de la lectura de la cámara (umbral de referencia 0.85).",
+  "transacciones": [
+    {
+      "tx_id": "TX-1001",
+      "cuenta": "CTA-58210",
+      "placa_cuenta": "JKM482",
+      "placa_foto_anpr": "JKM482",
+      "confianza_ocr": 0.97,
+      "estacion": "EDS AndesFuel Calle 80 (Bogotá)",
+      "surtidor": 3,
+      "fecha_hora": "2026-09-14T07:42:10-05:00",
+      "galones": 5.0,
+      "precio_galon_cop": 16200,
+      "hold_cop": 200000,
+      "monto_capturado_cop": 81000,
+      "push_entregado": true,
+      "dispositivo_nuevo": false,
+      "senales_fraude": []
+    },
+    {
+      "tx_id": "TX-1002",
+      "cuenta": "CTA-58210",
+      "placa_cuenta": "JKM482",
+      "placa_foto_anpr": "JKN482",
+      "confianza_ocr": 0.61,
+      "estacion": "EDS AndesFuel Autopista Norte (Bogotá)",
+      "surtidor": 6,
+      "fecha_hora": "2026-09-18T18:05:33-05:00",
+      "galones": 7.375,
+      "precio_galon_cop": 16000,
+      "hold_cop": 200000,
+      "monto_capturado_cop": 118000,
+      "push_entregado": true,
+      "dispositivo_nuevo": false,
+      "senales_fraude": []
+    },
+    {
+      "tx_id": "TX-1003",
+      "cuenta": "CTA-58210",
+      "placa_cuenta": "JKM482",
+      "placa_foto_anpr": "JKM482",
+      "confianza_ocr": 0.95,
+      "estacion": "EDS AndesFuel Chía",
+      "surtidor": 2,
+      "fecha_hora": "2026-09-21T12:18:47-05:00",
+      "galones": 7.5,
+      "precio_galon_cop": 15000,
+      "hold_cop": 200000,
+      "monto_capturado_cop": 112500,
+      "push_entregado": true,
+      "dispositivo_nuevo": false,
+      "senales_fraude": []
+    },
+    {
+      "tx_id": "TX-1004",
+      "cuenta": "CTA-58210",
+      "placa_cuenta": "JKM482",
+      "placa_foto_anpr": "JKM482",
+      "confianza_ocr": 0.96,
+      "estacion": "EDS AndesFuel Av. Boyacá (Bogotá)",
+      "surtidor": 1,
+      "fecha_hora": "2026-09-25T22:31:05-05:00",
+      "galones": 10.0,
+      "precio_galon_cop": 15800,
+      "hold_cop": 200000,
+      "monto_capturado_cop": 158000,
+      "push_entregado": false,
+      "dispositivo_nuevo": true,
+      "senales_fraude": [
+        "dispositivo_nuevo: sesión iniciada desde un dispositivo no visto antes, 40 min antes del repostaje",
+        "viaje_imposible: placa JKM482 vista en EDS AndesFuel Villeta (a 80 km) a las 22:16, 15 min antes de esta transacción"
+      ]
+    },
+    {
+      "tx_id": "TX-1005",
+      "cuenta": "CTA-58210",
+      "placa_cuenta": "JKM482",
+      "placa_foto_anpr": "JKM482",
+      "confianza_ocr": 0.98,
+      "estacion": "EDS AndesFuel Soacha",
+      "surtidor": 4,
+      "fecha_hora": "2026-09-27T09:10:22-05:00",
+      "galones": 6.25,
+      "precio_galon_cop": 16000,
+      "hold_cop": 200000,
+      "monto_capturado_cop": 100000,
+      "push_entregado": true,
+      "dispositivo_nuevo": false,
+      "senales_fraude": []
+    }
+  ]
+}
